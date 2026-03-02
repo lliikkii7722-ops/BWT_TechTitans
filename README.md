@@ -160,38 +160,7 @@ FocusFlow AI enables:
 - Developer focus scoring system
 - ---
 
-## 🚀 Getting Started
 
-Follow these steps to run the project locally.
-
-### 1️⃣ Clone the repository
-
-```bash
-git clone https://github.com/lliikkii7722-ops/BWT_TechTitans.git
-```
-
-### 2️⃣ Navigate to backend
-
-```bash
-cd BWT_TechTitans/backend
-```
-
-### 3️⃣ Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4️⃣ Run the server
-
-```bash
-uvicorn app:app --reload
-```
-
----
-
-## 📌 Note
-This is an architectural prototype. Backend and frontend modules will be implemented in future versions.
 
 ---
 
