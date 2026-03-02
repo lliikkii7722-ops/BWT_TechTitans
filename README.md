@@ -1,173 +1,172 @@
-🚀 FocusFlow AI
-AI Super Productivity – Build for Focus and Flow
+# FocusFlow AI  
+### AI Super Productivity – Build for Focus and Flow  
+**Team: Tech Titans**
 
-Team: Tech Titans
+---
 
-🌟 Overview
+## Overview
 
-FocusFlow AI is an intelligent productivity layer designed to restore deep focus for developers by eliminating friction caused by context switching, interruptions, and knowledge gaps.
+FocusFlow AI is an intelligent productivity infrastructure layer designed to restore deep focus for developers by eliminating friction caused by context switching, interruptions, and knowledge fragmentation.
 
-Modern development environments are fast-paced and interruption-heavy. Developers frequently lose time rediscovering context, understanding unfamiliar code, and rewriting repetitive logic. FocusFlow AI solves this by acting as a real-time cognitive assistant inside the IDE.
+Modern development workflows are interruption-heavy and cognitively demanding. Developers frequently lose time rediscovering context, navigating unfamiliar codebases, and rewriting repetitive logic. FocusFlow AI acts as a real-time cognitive assistant embedded directly within the IDE.
 
-🧠 Problem Statement
+---
 
-Developers lose significant productivity due to:
+## Problem Statement
 
-🔄 Context switching between tasks
+Developers experience significant productivity loss due to:
 
-🔍 Searching for where they left off
+- Context switching between tasks  
+- Searching for previous working states  
+- Understanding unfamiliar or legacy code  
+- Writing repetitive boilerplate logic  
+- Frequent collaboration interruptions  
 
-📖 Understanding unfamiliar or legacy code
+This results in:
 
-🛠 Writing repetitive boilerplate
+- Reduced deep work time  
+- Slower development cycles  
+- Increased cognitive fatigue  
+- Fragmented institutional knowledge  
 
-💬 Frequent team interruptions
+There is a need for an AI-driven system that actively preserves workflow context and restores continuity after interruptions.
 
-This leads to:
+---
 
-Reduced deep work time
+## Solution – FocusFlow AI
 
-Slower development cycles
+FocusFlow AI integrates directly into the developer’s IDE and provides:
 
-Increased cognitive fatigue
+### Context Recovery Engine
+Reconstructs developer workflow state after interruptions and intelligently restores task context.
 
-Fragmented institutional knowledge
+### Code Intelligence Layer
+Explains unfamiliar code, summarizes files, and identifies logical dependencies instantly.
 
-There is a need for an intelligent AI system that actively preserves developer context and restores workflow continuity.
+### Smart Boilerplate Generator
+Reduces repetitive development effort using AI-assisted generation.
 
-💡 Our Solution – FocusFlow AI
+### Git Change Summarizer
+Tracks repository changes and auto-generates concise commit summaries.
 
-FocusFlow AI is an AI-powered productivity assistant integrated directly into the developer’s IDE.
+### Persistent Knowledge Memory
+Stores contextual embeddings of code and documentation for intelligent semantic retrieval using a Retrieval-Augmented Generation (RAG) approach.
 
-It provides:
+Rather than replacing developers, FocusFlow AI augments cognitive bandwidth and enables sustained deep work.
 
-🧾 Context Recovery Engine
-Automatically reconstructs what the developer was working on before interruptions.
+---
 
-🧠 Code Intelligence Layer
-Explains unfamiliar code, summarizes files, and identifies logic flows instantly.
-
-🛠 Smart Boilerplate Generator
-Reduces repetitive coding effort using AI-driven generation.
-
-📊 Git Change Summarizer
-Tracks commits and auto-generates concise summaries.
-
-📚 Persistent Knowledge Memory
-Uses vector embeddings to store and retrieve project context intelligently.
-
-Our system does not replace developers — it enhances their cognitive bandwidth.
-
-🏗 System Architecture
+## System Architecture
 
 FocusFlow AI follows a modular AI-assisted architecture:
 
-1️⃣ IDE Integration Layer
+### 1. IDE Integration Layer
+- VS Code Extension  
+- Captures user activity, open files, and Git metadata  
 
-VS Code Extension
+### 2. AI Context Engine
+- Maintains real-time workflow state  
+- Builds context-aware prompts  
+- Orchestrates backend services  
 
-Captures user activity, open files, and Git changes
+### 3. Code Analysis Module
+- AST parsing  
+- Dependency extraction  
+- Relevant code segment identification  
 
-2️⃣ AI Context Engine
+### 4. LLM Service Layer
+- Code explanation  
+- Boilerplate generation  
+- Change summarization  
 
-Manages real-time developer state
+### 5. Vector Memory Store
+- Embedding storage  
+- Semantic retrieval  
+- Contextual recall (RAG-based system)  
 
-Builds contextual prompts
+### 6. Response Engine
+- Returns structured insights directly inside the IDE  
 
-Orchestrates backend services
+---
 
-3️⃣ Code Analysis Module
+## Architecture Flow
 
-Parses AST
+Developer  
+→ VS Code Extension  
+→ AI Context Engine  
+→ (Code Parser + LLM Service + Vector Store)  
+→ Processed Insight  
+→ Developer  
 
-Identifies function dependencies
+---
 
-Extracts relevant code segments
+## Tech Stack
 
-4️⃣ LLM Service Layer
+### Frontend
+- VS Code Extension (TypeScript)
 
-Generates explanations
+### Backend
+- FastAPI (Python)
 
-Produces boilerplate code
+### AI Layer
+- LLM API  
+- Embedding Model  
+- Retrieval-Augmented Generation (RAG)
 
-Summarizes changes
+### Data Layer
+- FAISS / Pinecone (Vector Database)  
+- Git Integration  
 
-5️⃣ Vector Memory Store
+---
 
-Stores embeddings of code & documentation
+## Key Technical Concepts
 
-Enables semantic retrieval
+- Context Reconstruction Algorithms  
+- Embedding-Based Semantic Retrieval  
+- Prompt Engineering for Code Intelligence  
+- Real-Time Workflow Tracking  
+- Modular AI Orchestration  
 
-Powers contextual recall (RAG-based)
+---
 
-6️⃣ Response Engine
-
-Returns actionable insights directly inside IDE
-
-🔁 Architecture Flow
-
-Developer → VS Code Extension → AI Context Engine →
-(Code Parser + LLM Service + Vector Store) →
-Processed Insight → Developer
-
-⚙ Tech Stack
-
-Frontend
-
-VS Code Extension (TypeScript)
-
-Backend
-
-FastAPI (Python)
-
-AI Layer
-
-LLM API
-
-Embedding Model
-
-Retrieval-Augmented Generation (RAG)
-
-Data Layer
-
-FAISS / Pinecone (Vector Database)
-
-Git Integration
-
-🔐 Key Technical Concepts
-
-Context Reconstruction Algorithms
-
-Prompt Engineering for Code Intelligence
-
-Embedding-Based Semantic Retrieval
-
-Real-Time Workflow Tracking
-
-Modular AI Orchestration
-
-📈 Impact
+## Impact
 
 FocusFlow AI enables:
 
-⏱ Reduced context recovery time
+- Reduced context recovery time  
+- Improved cognitive efficiency  
+- Faster development cycles  
+- Continuous knowledge capture  
+- Sustained developer focus  
 
-🧠 Improved cognitive efficiency
+---
 
-🚀 Faster development cycles
+## Future Enhancements
 
-📚 Continuous knowledge capture
+- Slack / Teams integration  
+- Automated PR description generation  
+- Meeting summarization  
+- Productivity analytics dashboard  
+- Developer focus scoring system  
 
-🔥 Enhanced developer focus
+---
 
-🔮 Future Enhancements
+## Repository Structure
 
-Slack / Teams integration
+```
+BWT_TechTitans/
+│
+├── README.md
+├── architecture/
+│   └── architecture_diagram.png
+├── backend/
+├── frontend/
+└── docs/
+```
 
-Automated PR descriptions
+---
 
-Meeting summarization
+## Conclusion
 
-Productivity analytics dashboard
-
-Burnout detection signals
+FocusFlow AI is not just a code assistant.  
+It is a productivity infrastructure layer designed to preserve developer context, reduce cognitive load, and enable uninterrupted focus in modern software development environments.
