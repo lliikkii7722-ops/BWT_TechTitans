@@ -1,6 +1,6 @@
 # FocusFlow AI  
 ### AI Super Productivity – Build for Focus and Flow  
-**Team: Tech Titans**
+**Team: Techie Titans**
 ![GitHub stars](https://img.shields.io/github/stars/lliikkii7722-ops/BWT_TechTitans)
 ![GitHub issues](https://img.shields.io/github/issues/lliikkii7722-ops/BWT_TechTitans)
 ![License](https://img.shields.io/github/license/lliikkii7722-ops/BWT_TechTitans)
