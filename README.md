@@ -1,167 +1,132 @@
-# FocusFlow AI  
-### AI Super Productivity – Build for Focus and Flow  
-**Team: Techie Titans**
-![GitHub stars](https://img.shields.io/github/stars/lliikkii7722-ops/BWT_TechTitans)
-![GitHub issues](https://img.shields.io/github/issues/lliikkii7722-ops/BWT_TechTitans)
-![License](https://img.shields.io/github/license/lliikkii7722-ops/BWT_TechTitans)
+# 🧠 OrgMemory - Beautiful Streamlit Version
 
----
----
+## 🎨 Two Versions Available!
 
-## Overview
+### 1. Standard Version (`app.py`)
+Professional dark theme with corporate design
 
-FocusFlow AI is an intelligent productivity infrastructure layer designed to restore deep focus for developers by eliminating friction caused by context switching, interruptions, and knowledge fragmentation.
+### 2. Enhanced Version (`app_enhanced.py`) ⭐ NEW!
+Stunning glassmorphism design with background image
 
-Modern development workflows are interruption-heavy and cognitively demanding. Developers frequently lose time rediscovering context, navigating unfamiliar codebases, and rewriting repetitive logic. FocusFlow AI acts as a real-time cognitive assistant embedded directly within the IDE.
+## ✨ Features
 
----
+### 1. Knowledge Capture 📝
+- AI-powered processing
+- Automatic extraction of decisions, actions, risks
+- Tag generation
+- People mention detection
 
-## Problem Statement
+### 2. View All Knowledge 📚
+- Expandable cards
+- Full details for each entry
+- Chronological order
 
-Developers experience significant productivity loss due to:
+### 3. Smart Search 🔍
+- Keyword search
+- Instant results
+- Filtered display
 
-- Context switching between tasks  
-- Searching for previous working states  
-- Understanding unfamiliar or legacy code  
-- Writing repetitive boilerplate logic  
-- Frequent collaboration interruptions  
+### 4. Dashboard Analytics 📊
+- Total entries, decisions, action items
+- Interactive Plotly charts
+- Top tags bar chart
+- Knowledge growth line chart
 
-This results in:
+### 5. Risk Analysis ⚠️
+- Employee knowledge concentration
+- Risk level indicators (HIGH/MEDIUM/LOW)
+- Visual bar chart
+- Color-coded warnings
 
-- Reduced deep work time  
-- Slower development cycles  
-- Increased cognitive fatigue  
-- Fragmented institutional knowledge  
+### 6. Knowledge Graph 🔗
+- Network visualization
+- Connection mapping
+- Interactive scatter plot
+- Unique people and tags metrics
 
-There is a need for an AI-driven system that actively preserves workflow context and restores continuity after interruptions.
+### 7. Contradiction Detector 🔍
+- Automatic conflict detection
+- Strategic alignment checker
+- Warning alerts
 
----
+## 🚀 How to Run
 
-## Solution – FocusFlow AI
+### Install Dependencies:
+```bash
+pip install streamlit pandas plotly
+```
 
-FocusFlow AI integrates directly into the developer’s IDE and provides:
+### Run Standard Version:
+```bash
+streamlit run app.py
+```
 
-### Context Recovery Engine
-Reconstructs developer workflow state after interruptions and intelligently restores task context.
+### Run Enhanced Version (Recommended):
+```bash
+streamlit run app_enhanced.py
+```
 
-### Code Intelligence Layer
-Explains unfamiliar code, summarizes files, and identifies logical dependencies instantly.
+Or double-click: `RUN_ENHANCED.bat`
 
-### Smart Boilerplate Generator
-Reduces repetitive development effort using AI-assisted generation.
+### Open Browser:
+Automatically opens at http://localhost:8501
 
-### Git Change Summarizer
-Tracks repository changes and auto-generates concise commit summaries.
+## 🎨 Enhanced Version Features
 
-### Persistent Knowledge Memory
-Stores contextual embeddings of code and documentation for intelligent semantic retrieval using a Retrieval-Augmented Generation (RAG) approach.
+### Beautiful Background
+- High-quality space/tech image from Unsplash
+- Dark gradient overlay for readability
+- Fixed parallax effect
+- Responsive design
 
-Rather than replacing developers, FocusFlow AI augments cognitive bandwidth and enables sustained deep work.
+### Glassmorphism Design
+- Frosted glass effect on all cards
+- Backdrop blur filters
+- Semi-transparent backgrounds
+- Elegant borders with glow
 
----
+### Animations
+- Floating header animation
+- Gradient shifting buttons
+- Smooth hover effects
+- Pulse animations on metrics
 
-## System Architecture
+### Color Scheme
+- Primary: Blue (#3b82f6)
+- Secondary: Purple (#8b5cf6)
+- Accent: Pink (#ec4899)
+- Professional gradients throughout
 
-FocusFlow AI follows a modular AI-assisted architecture:
+## 📁 Files
 
-### 1. IDE Integration Layer
-- VS Code Extension  
-- Captures user activity, open files, and Git metadata  
+- `app.py` - Standard version
+- `app_enhanced.py` - Enhanced version with background ⭐
+- `RUN_ENHANCED.bat` - Quick launcher
+- `ENHANCED_GUIDE.md` - Detailed guide
+- `PREVIEW.html` - Design preview
+- `requirements.txt` - Dependencies
+- `orgmemory.db` - Database (auto-created)
 
-### 2. AI Context Engine
-- Maintains real-time workflow state  
-- Builds context-aware prompts  
-- Orchestrates backend services  
+## 🏆 Perfect for Hackathon!
 
-### 3. Code Analysis Module
-- AST parsing  
-- Dependency extraction  
-- Relevant code segment identification  
+- Enterprise-level features
+- Beautiful visualizations
+- Complete functionality
+- Easy to demo
+- Impressive design
+- Professional UI
 
-### 4. LLM Service Layer
-- Code explanation  
-- Boilerplate generation  
-- Change summarization  
+## 📊 Technologies
 
-### 5. Vector Memory Store
-- Embedding storage  
-- Semantic retrieval  
-- Contextual recall (RAG-based system)  
+- Streamlit (UI Framework)
+- Plotly (Interactive Charts)
+- Pandas (Data Processing)
+- SQLite (Database)
+- Python (Backend)
+- CSS3 (Styling & Animations)
 
-### 6. Response Engine
-- Returns structured insights directly inside the IDE  
+## 🎉 Ready to Impress!
 
----
+All features working with beautiful professional UI!
 
-## Architecture Diagram
-
-![System Architecture](architecture01jpg.jpg)
-
----
-
-## Architecture Flow
-
-Developer  
-→ VS Code Extension  
-→ AI Context Engine  
-→ (Code Parser + LLM Service + Vector Store)  
-→ Processed Insight  
-→ Developer  
-
----
-
-## Tech Stack
-
-### Frontend
-- VS Code Extension (TypeScript)
-
-### Backend
-- FastAPI (Python)
-
-### AI Layer
-- LLM API  
-- Embedding Model  
-- Retrieval-Augmented Generation (RAG)
-
-### Data Layer
-- FAISS / Pinecone (Vector Database)  
-- Git Integration  
-
----
-
-## Key Technical Concepts
-
-- Context Reconstruction Algorithms  
-- Embedding-Based Semantic Retrieval  
-- Prompt Engineering for Code Intelligence  
-- Real-Time Workflow Tracking  
-- Modular AI Orchestration  
-
----
-
-## Impact
-
-FocusFlow AI enables:
-
-- Reduced context recovery time  
-- Improved cognitive efficiency  
-- Faster development cycles  
-- Continuous knowledge capture  
-- Sustained developer focus  
-
----
-
-## Future Enhancements
-
-- Slack / Teams integration  
-- Automated PR description generation  
-- Meeting summarization  
-- Productivity analytics dashboard  
-- Developer focus scoring system
-- ---
-
-
-
----
-
-
+**Recommended:** Use `app_enhanced.py` for the best visual experience!
